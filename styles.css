@@ -49,3 +49,49 @@ table {
 /* ************************************ */
 /* GENERAL */
 /* ************************************ */
+
+@font-face {
+  font-family: "Inter";
+  src: url("/assets/fonts/Inter.woff2") format("woff2");
+}
+
+body {
+  display: grid;
+  place-items: center;
+  background-color: black;
+}
+
+.wrapper {
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 10px;
+  display: grid;
+  place-items: center;
+  height: 500px;
+  width: 350px;
+}
+
+h2,
+p,
+li {
+  color: white;
+  font-family: "Inter", sans-serif;
+}
+
+h3 {
+  color: hsl(75, 94%, 57%);
+}
+p,
+li {
+  font-size: 1.4rem;
+}
+
+.wrapper img {
+  border-radius: 100%;
+}
+
+li {
+  list-style-type: none;
+  background-color: hsl(0, 0%, 20%);
+  text-align: center;
+  padding: 0 100% 0;
+}
