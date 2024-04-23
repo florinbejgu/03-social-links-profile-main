@@ -59,39 +59,73 @@ body {
   display: grid;
   place-items: center;
   background-color: black;
+  font-family: "Inter", sans-serif;
 }
 
 .wrapper {
   background-color: hsl(0, 0%, 12%);
   border-radius: 10px;
-  display: grid;
-  place-items: center;
-  height: 500px;
-  width: 350px;
+  height: 570px;
+  max-width: 375px;
+  width: 100%;
+  text-align: center;
 }
 
 h2,
 p,
 li {
   color: white;
-  font-family: "Inter", sans-serif;
+}
+
+h2 {
+  margin-top: 20px;
+  font-size: 2.4rem;
 }
 
 h3 {
   color: hsl(75, 94%, 57%);
+  margin-top: 10px;
+  font-weight: 600;
 }
+
+p {
+  margin-top: 25px;
+}
+
 p,
-li {
+h3 {
   font-size: 1.4rem;
 }
 
 .wrapper img {
   border-radius: 100%;
+  margin-top: 40px;
 }
 
-li {
-  list-style-type: none;
+.social-links {
+  display: grid;
+  place-items: center;
+  width: 300px;
+  margin: 20px auto auto auto;
+  gap: 15px;
+}
+
+.social-links a {
   background-color: hsl(0, 0%, 20%);
+  display: grid;
+  place-items: center;
+  height: 40px;
+  width: 100%;
   text-align: center;
-  padding: 0 100% 0;
+  text-decoration: none;
+  color: white;
+  border-radius: 10px;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+a:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: black;
+  cursor: url("/assets/images/icons8-finger-up-25.png"), auto;
 }
