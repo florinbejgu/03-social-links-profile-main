@@ -127,5 +127,6 @@ h3 {
 a:hover {
   background-color: hsl(75, 94%, 57%);
   color: black;
+  /* Custom cursor from https://icons8.com/icon/set/hand-pointer/group-ui */
   cursor: url("/assets/images/icons8-finger-up-25.png"), auto;
 }
